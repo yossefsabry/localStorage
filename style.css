@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  background-color: #f2f1f1;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 40px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
+
+ul li:nth-child(1) {
+  background-color: red;
+}
+ul li:nth-child(2) {
+  background-color: blue;
+}
+ul li:nth-child(3) {
+  background-color: green;
+}
+ul li:nth-child(4) {
+  background-color: black;
+}
+
+.box {
+  width: 90%;
+  height: 400px;
+  background-color: red;
+  display: inline-block;
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+}
